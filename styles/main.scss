@@ -1,0 +1,72 @@
+@import 'contact';
+@import 'features';
+@import 'footer';
+@import 'header';
+@import 'intro';
+@import 'nav';
+@import 'section-header';
+@import 'info-section';
+@import 'chat';
+body {
+	font: 400 18px / 1.6em 'Montserrat', 'Roboto Slab', sans-serif, Arial;
+	color: #777777;
+	overflow-x: hidden;
+}
+
+/* Links */
+a {
+	color: #777777;
+	text-decoration: none;
+}
+
+a:hover {
+	opacity: 0.9;
+}
+
+/* Images */
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* Buttons */
+
+
+.btn-primary {
+	padding: 8px 32px;
+	background-color: none;
+	border: 3px solid #ffffff;
+	color: #fff;
+	margin:0;
+	border-radius: 7px;
+}
+
+
+
+/* Grid */
+.container {
+	max-width: 940px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+/* Page sections */
+
+
+.intro-section {
+	padding-bottom: 130px;
+}
+
+.logo-gallery{
+	.gallery{
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		padding: 41px 0;
+		flex-flow: row wrap;
+		img{
+			margin:20px 20px;
+			align-self: center;
+		}
+	}
+}

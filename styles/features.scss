@@ -1,0 +1,57 @@
+/* Feature boxes */
+
+.feature-boxes > .container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-us{
+    padding-bottom: 100px;
+    padding-top: 1px;
+    background-color: #f9f9f9;
+    .container{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        img{
+            height:auto;
+        }
+    }
+
+}
+
+.feature-box {
+    margin:5px;
+    text-align: center;
+    max-width: 295px;
+    min-width: 210px;
+    align-self: center;
+    margin: 0 auto;
+    width: 33%;
+}
+
+.feature-box img {
+    margin-bottom: 21px;
+    height: 48px;
+}
+
+.feature-box h3 {
+    color: #222222;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -0.45px;
+    margin:0;
+    margin-bottom: 8px;
+}
+
+.feature-box p {
+    font-family: "Roboto Slab";
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.35px;
+    text-indent: 12px;
+    margin:0;
+}
